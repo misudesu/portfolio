@@ -12,8 +12,8 @@ export default function App() {
 <NavBar/>
   <Routes> 
    
-    <Route exact path="/" element={<Flegaye />}/>
-    <Route exact path="/pro1" element={<Home />}/>
+    <Route  path="/" element={<Flegaye />}/>
+    <Route  path="/pro1" element={<Home />}/>
    {/* <Route exact path="/Dashbord" element ={<Dashbord/>} /> */}
    <Route exact path="/china" element ={<China/>} />
    {/* <Route exact path="/Nora" element ={<Nora/>} /> */}
